@@ -192,7 +192,7 @@ module.exports = {
             return ;
           }
         });
-        return fs.createReadStream(tmpFile);
+        return fs.createWriteStream(tmpFile);
       } else if (this.outputMethod == 3) {
         return this.output;
       }

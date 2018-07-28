@@ -1,0 +1,13 @@
+check rules: 3, 4, 5
+--- Start 3.1 Detect if header doesn’t have <title> tag ---
+--- End 3.1 Detect if header doesn’t have <title> tag ---
+--- Start 3.2 Detect if header doesn’t have <meta name=“descriptions” ... /> tag ---
+--- Start 3.3 Detect if header doesn’t have <meta name=“keywords” ... /> tag --- 
+--- End 3.2 Detect if header doesn’t have <meta name=“descriptions” ... /> tag ---
+--- End 3.3 Detect if header doesn’t have <meta name=“keywords” ... /> tag ---
+--- Start 4 Detect if there’re more than 15 <strong> tag in HTML (15 is a value should be configurable by user) 
+error: there’re more than 15 <strong> tag in HTML
+--- End 4 Detect if there’re more than 15 <strong> tag in HTML (15 is a value should be configurable by user) 
+--- Start 5 Detect if a HTML have more than one <H1> tag. ---
+error: HTML have more than one <H1> tag.
+--- End 5 Detect if a HTML have more than one <H1> tag. ---
