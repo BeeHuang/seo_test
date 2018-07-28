@@ -1,0 +1,15 @@
+{
+  "name": "bee_seo",
+  "version": "1.0.3",
+  "description": "bee seo",
+  "main": "seo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bee",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "mpm": "0.0.1"
+  }
+}
