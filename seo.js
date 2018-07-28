@@ -194,7 +194,8 @@ module.exports = {
         });
         return fs.createWriteStream(tmpFile);
       } else if (this.outputMethod == 3) {
-        return this.output;
+        console.log(this.output);
+        return 'success';
       }
     };
   }
