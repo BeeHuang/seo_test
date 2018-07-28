@@ -9,7 +9,7 @@ var SeoCheck = require( './seo.js' );
     SeoCheck.SeoCheck();
     await SeoCheck.setFilePath('test.html');
     SeoCheck.check('3,4,5');
-    SeoCheck.setOutputMethond(2);
+    SeoCheck.setOutputMethond(3);
     console.log(SeoCheck.getOutput());
 }());
 
