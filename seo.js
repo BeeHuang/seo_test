@@ -2,7 +2,6 @@ const cheerio = require('cheerio')
 var fs = require('fs');
 
 module.exports = exports = class SeoCheck {
-  // const test = null;
   constructor() {
     this.output = '';
     this.outputMethod = 3;//default Console method
