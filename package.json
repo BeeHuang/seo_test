@@ -1,6 +1,6 @@
 {
   "name": "bee_seo",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "bee seo",
   "main": "seo.js",
   "scripts": {
